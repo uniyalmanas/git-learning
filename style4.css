@@ -1,0 +1,130 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(bg.webp);
+    background-size: 100% ;
+    height: 120vh;
+}
+header
+{
+    /* border: 2px solid white; */
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+.logobox
+{
+    /* border: 2px solid rgb(233, 13, 13); */
+    display: inline-block;
+    width: 500px;
+    font-size: 30px;
+    color: beige;
+    /* font-family: 'Updock', cursive; */
+    /* text-decoration: underline; */
+    cursor: pointer;
+
+   
+
+}
+.logobox:hover
+{
+    color: salmon;
+    transition: 0.5s;
+}
+.navbox
+{
+    /* border: 2px solid rgb(15, 228, 43); */
+    width: 600px;
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+
+    
+}
+.navbox>a
+{
+    margin-left: 20px;
+    color: beige;
+    font-size: larger;
+    text-decoration: none;
+    /* font-family: 'Updock', cursive; */
+}
+#homie
+{
+    color: salmon;
+}
+.navbox>a:hover{
+    color: salmon;
+    transform: 500ms;
+}
+.heading
+{
+    color: salmon;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 30px;
+    width: 500px;
+    /* top: 10px; */
+    font-size: 40px;
+    text-decoration: coral;
+
+}
+.heading+h3+p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    width: 400px;
+    word-spacing: 4px;
+     text-decoration: coral;
+}
+#btn
+{
+    position: relative;
+    left: 40px;
+    top: 60px;
+    color: white;
+    background-color: salmon;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+#btn:hover
+{   background-color: rgba(250, 128, 114, 0);
+    color: white;
+    /* box-shadow: 2px 2px brown; */
+    transition: 0.5s;
+    border: 2px solid salmon;
+
+    
+}
+footer{
+       
+   position: fixed;
+   bottom: 0;
+   width: 600px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 2px solid white; */
+     /* height: 10px; */
+    padding-left: 40px;
+    margin-left: 400px;
+    background-color: #121212;
+}
